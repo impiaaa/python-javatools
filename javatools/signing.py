@@ -16,6 +16,9 @@
 """
 Module for reading and writing JAR signatures
 
+This module relies heavily on executing the openssl binary to perform
+various checks. TODO: move to using pyopenssl
+
 References
 ----------
 * http://docs.oracle.com/javase/1.5.0/docs/guide/jar/index.html
